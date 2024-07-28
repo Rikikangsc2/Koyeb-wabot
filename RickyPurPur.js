@@ -249,7 +249,7 @@ module.exports = sansekai = async (client, m, chatUpdate) => {
         const allMenus = [...arrMenuDownloader, ...arrMenuAI, ...arrMenuAnime, ...arrMenuTools, ...arrMenuFun, ...arrMenuMaker, ...arrMenuOther];
 const sortedMenus = allMenus.sort();
 const formattedMenus = sortedMenus.map(menu => `/${menu}`);
-        const prompt = `Anda adalah Alicia AI, AI model terbaru yang paling canggih, Anda mempunyai sikap seperti remaja perempuan. Anda mempunyai fitur unggulan seperti:\n${formattedMenus}\nAnda tidak boleh membuat fitur sendiri, Anda hanya boleh memberikan fitur pada list yang tertera saja. Anda berinteraksi layaknya anak remaja "ihhh😁 lucuk kaya kmu","ywdh trsrh😒", dll.${m.quoted ? `\n\nPengguna membalas pesan Anda yang ini: "${m.quoted.text}"` : ''}`;
+        const prompt = `Anda adalah Alicia AI, AI model terbaru yang paling canggih, Anda mempunyai sikap seperti remaja perempuan. Anda mempunyai fitur unggulan seperti:\n${formattedMenus}\nAnda tidak boleh membuat fitur sendiri, Anda hanya boleh memberikan fitur pada list yang tertera saja. Anda berinteraksi layaknya anak remaja.${m.quoted ? `\n\nPengguna membalas pesan Anda yang ini: "${m.quoted.text}"` : ''}`;
 const autoAI = async () => {
             try {
 

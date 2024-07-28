@@ -19,13 +19,13 @@ const gameku = require('./func/fun-game.js');
 const botOwner = '6283894391287';
 const botGroup = 'https://chat.whatsapp.com/D6bHVUjyGj06bb6iZeUsOI';
 //---
-const arrMenuDownloader = ['instagram', 'ig', 'tiktok', 'tt', 'play', 'ytmp3', 'ytmp4'];
-const arrMenuAI = ['ai', 'anidif'];
-const arrMenuAnime = ['ongoing', 'jadwal'];
-const arrMenuTools = ['hd', 'remini', 'upscale', 'kl', 'kalkulator', 'upload'];
-const arrMenuFun = ['top', 'point', 'nyerah', 'hint', 'tebakkata', 'susunkata', 'slot', 'siapaaku', 'math', 'caklontong', 'asahotak'];
+const arrMenuDownloader = ['instagram - pengunduh foto/video ig', 'ig - cmd singkat Instagram', 'tiktok - pengunduh video/foto tiktok', 'tt - cmd singkat tiktok', 'play - cari dan play video/audio YouTube', 'ytmp3 - pengunduh YouTube audio', 'ytmp4 - pengunduh YouTube video'];
+const arrMenuAI = ['ai - Akses alicia AI', 'anidif - pembuat gambar anime/diffusion'];
+const arrMenuAnime = ['ongoing - list anime on-going', 'jadwal - list jadwal anime update'];
+const arrMenuTools = ['hd - Gambar menjadi hd', 'remini - gambar menjadi hdv2', 'upscale - gambar menjadi 4× lebih hd', 'kl - cmd singkat kalkulator', 'kalkulator - penghitung soal mtk dasar', 'upload - upload foto ke server telegra.ph'];
+const arrMenuFun = ['top - top pemain game', 'point - cek point kamu', 'nyerah - menyerah saat bermain', 'hint - bantuan saat bermain', 'tebakkata - game tebakkata', 'susunkata - game susunkata', 'slot - game taruhan slot', 'siapaaku - game tebak siapaaku', 'math - game mtk dasar', 'caklontong - game tebak2an nyeleneh', 'asahotak - game mengasah otak'];
 const arrMenuMaker = [];
-const arrMenuOther = ['owner', 'gcbot'];
+const arrMenuOther = ['owner - informasi pembuat bot', 'gcbot - group komunitas bot'];
 
 const generateMenuOptions = (options) =>
 options.map((option) => `║│─≽ .${option}\n`).join('');
